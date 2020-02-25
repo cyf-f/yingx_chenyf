@@ -19,7 +19,7 @@ public class UserPoiTest {
     UserService userService;
 
     @Test
-    public void testExports(){
+    public void tests(){
 
         //创建一个人excel文档
         Workbook workbook=new HSSFWorkbook();
