@@ -1,0 +1,28 @@
+{
+  "totals": "3",
+  "records": "10",
+  "page": "1",
+  "rows": [
+    {
+      "id": "1",
+      "name": "计算机",
+      "levels": "1",
+      "parentId": null
+    },{
+      "id": "2",
+      "name": "编程",
+      "levels": "1",
+      "parentId": null
+    },{
+      "id": "3",
+      "name": "语言",
+      "levels": "1",
+      "parentId": null
+    },{
+      "id": "4",
+      "name": "搞笑",
+      "levels": "1",
+      "parentId": null
+    }
+  ]
+}

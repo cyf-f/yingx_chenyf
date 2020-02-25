@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.baizhi.cyf.dao.AdminMapper">
+
+  <!--sql复用标签-->
+  <sql id="uSql">
+      id,username,password
+  </sql>
+
+  <select id="queryByUsername" resultType="Admin">
+    select <include refid="uSql"/> from yx_admin where username=#{username}
+  </select>
+
+</mapper>

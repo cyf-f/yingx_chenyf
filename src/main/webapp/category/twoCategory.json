@@ -1,0 +1,28 @@
+{
+  "totals": "3",
+  "records": "10",
+  "page": "1",
+  "rows": [
+    {
+      "id": "11",
+      "name": "Java",
+      "levels": "2",
+      "parentId": "2"
+    },{
+      "id": "12",
+      "name": "python",
+      "levels": "2",
+      "parentId": "2"
+    },{
+      "id": "13",
+      "name": "Go",
+      "levels": "2",
+      "parentId": "2"
+    },{
+      "id": "14",
+      "name": "php",
+      "levels": "2",
+      "parentId": "2"
+    }
+  ]
+}
